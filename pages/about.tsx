@@ -27,8 +27,8 @@ const AboutPage = () => {
               I completed a coding program with  
               <span className={styles.highlight}> Ada Developers Academy </span> 
                and after the intensive six month technical curriculum I began my
-              software engineering internship at 
-              <span className={styles.highlight}>Microsoft</span>. 
+              software engineering internship at  
+              <span className={styles.highlight}> Microsoft</span>. 
               I was fortunate that my work ethic during my internship was 
               recognized with an offer to convert to a full time Software Engineer. 
             </p>
