@@ -14,9 +14,10 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    name: 'La Tasha Pollard',", type: 'array-item' },
+    { code: "    role: 'Cybersecurity Focused Software Engineer',", type: 'array-item' },
+    { code: "    role: 'Videographer',", type: 'array-item' },
+    { code: "    bio: 'Life-long learner, documenting my journey from curious to capable.'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -91,14 +92,16 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            La Tasha <span className={styles.accentText}>Pollard</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Software Engineer // Videographer</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            I build secure, thoughtful apps, and 
+            document my continous learning journey on video.
+            Beyond code, I craft video content for clients
+            who want to make their message visually compelling.
           </p>
 
           <div className={styles.actionLinks}>
